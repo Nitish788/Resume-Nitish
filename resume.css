@@ -1,0 +1,12 @@
+
+* {box-sizing: border-box;margin: 0%;padding: 0%;}
+section {float: right;background-color: rgba(49, 45, 45, 0.322);width: 60%;height: 684px;border-top: 10px solid black;}
+table,th,td {border: 4px solid black;border-collapse: collapse;}
+img {height:150px;width: 150px;border: 7px solid green;border-radius: 60%;margin: 130px 30px 20px 150px;}
+.container {width: 40%;border-right: 10px solid black;height: 684px;background-color: rgba(255, 235, 205, 0.521);}
+#quali {margin: 60px;}
+ul {margin: 20px;}
+#name {margin-left: 130px;}
+#contact {margin: 30px 130px;}
+h2,h1 {color: tomato;}
+b {font-size: 180%;}
