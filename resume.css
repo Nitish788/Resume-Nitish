@@ -7,8 +7,8 @@
 section {
     float: right;
     background-color: rgba(49, 45, 45, 0.322);
-    width: 55%;
-    height: 100%;
+    width: 55vw;
+    height: 931px;
     border-top: 4px solid black;
     font-size: 1.2rem;
 }
@@ -22,6 +22,12 @@ td {
     text-align: center;
 }
 
+table {
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
 img {
     height: 10rem;
     width: 10rem;
@@ -33,10 +39,10 @@ img {
 }
 
 .container {
-    width: 45%;
+    width: 44vw;
     border-right: 10px solid black;
     height: 58.2rem;
-    background-image: linear-gradient(to right, white, rgba(128, 128, 128, 0.45));
+    background-image: linear-gradient( to right, rgba(128, 128, 128, 0.199), white, rgba(128, 128, 128, 0.329));
 }
 
 .container h1 {
@@ -47,11 +53,24 @@ img {
 }
 
 #quali {
-    margin: 60px;
+    position: relative;
+    top: 60px;
 }
 
 ul {
-    margin: 20px;
+    margin: 30px;
+}
+
+h2 {
+    position: relative;
+    left: 50px;
+    color: white;
+}
+
+li {
+    position: relative;
+    top: 20px;
+    left: 40px;
 }
 
 #name {
@@ -90,4 +109,21 @@ p {
 
 .aim h3 {
     font-size: 1.7rem;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.qual {
+    background-color: black;
+    position: relative;
+    top: 30px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
 }
